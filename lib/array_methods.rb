@@ -1,5 +1,10 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  counter = 0
+  new_array = [ ]
+  while counter < array.length do
+    new_array.push(array[counter]**2)
+    counter += 1
+  end
 end
 
 def find_max_value(array)
